@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Centro Comunitário Harbor Light</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f2f6fc;
+            margin: 0;
+            padding: 0;
+            color: #241894;
+        }
+
+        header {
+            text-align: center;
+            padding: 30px;
+            background-color: #ffffff;
+            border-bottom: 1px solid #dcdcdc;
+        }
+
+        header img {
+            width: 40%;
+            max-width: 300px;
+        }
+
+        h1 {
+            font-size: 32px;
+            margin-bottom: 5px;
+        }
+
+        h2 {
+            font-size: 22px;
+            margin-top: 0;
+            color: #444;
+        }
+
+        nav {
+            background-color: #134da0;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+        }
+
+        section {
+            background-color: white;
+            margin: 30px auto;
+            padding: 25px;
+            width: 90%;
+            max-width: 900px;
+            border-radius: 8px;
+            border: 1px solid #e0e0e0;
+        }
+
+        h3 {
+            text-align: center;
+            font-size: 26px;
+            color: #134da0;
+            margin-top: 0;
+        }
+
+        p {
+            text-align: center;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        section img {
+            width: 40%;
+            max-width: 250px;
+            display: block;
+            margin: 20px auto 0 auto;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #134da0;
+            padding: 20px;
+            color: white;
+            margin-top: 40px;
+        }
+
+        footer a {
+            color: #cde3ff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <img src="https://edube.org/uploads/media/default/0001/04/logo.jpg" alt="Logotipo do Centro Comunitário Harbor Light">
+        <h1>Bem-vindo ao Centro Comunitário Harbor Light </h1>
+        <h2>welcome</h2>
+    </header>
+    
+    <nav role="navigation">
+        <ul>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#services">Serviços</a></li>
+            <li><a href="#events">Eventos</a></li>
+            <li><a href="#contact">Contato</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="about">
+            <h3>Sobre nós</h3>
+            <p>O Centro Comunitário Harbor Light tem sido o coração da nossa comunidade por mais de 30 anos, oferecendo uma ampla gama de serviços e programas criados para apoiar e enriquecer a vida dos nossos moradores.</p>
+            <img src="img/community-center-removebg-preview.png" alt="">
+        </section>
+
+        <section id="services">
+            <h3>Nossos Serviços</h3>
+            <p>Desde oficinas educativas e ligas esportivas até programas de bem-estar e aulas de arte, nossos serviços são personalizados para atender às diversas necessidades dos membros de nossa comunidade.</p>
+        </section>
+
+        <section id="events" itemscope itemtype="http://schema.org/Event">
+            <h3>Participe dos nossos eventos</h3>
+            <p itemprop="description">Nosso centro comunitário é um polo de atividades, com eventos durante todo o ano. Não perca nosso festival anual de verão, com diversão, comida e festividades para todas as idades.</p>
+            <p>
+                <strong>Festival Anual de Verão:</strong><br>
+                Início: <time itemprop="startDate" datetime="2050-07-20">20 de julho de 2050</time>
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <h3 id="contact">Fale conosco</h3>
+        <p>Tem alguma dúvida ou quer se envolver? Envie um e-mail para <a href="mailto:info@harborlight.com">info@harborlight.com</a>.</p>
+        <p>© 2050 Centro Comunitário Harbor Light</p>
+    </footer>
+
+</body>
+</html>
